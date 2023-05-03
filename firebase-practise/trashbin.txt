@@ -1,0 +1,194 @@
+'git add' 
+ 
+   if (user) = logout
+ 
+onst doUserLogOut = async function () {
+    try {
+      await Parse.User.logOut();
+      // To verify that current user is now empty, currentAsync can be used
+      const currentUser = await Parse.User.current();
+      if (currentUser === null) {
+        alert('Success! No user is logged in anymore!');
+      }
+      // Update state variable holding current user
+      getCurrentUser();
+      return true;
+    } catch (error) {
+      alert(`Error! ${error.message}`);
+      return false;
+    }
+  };
+ 
+doUserLogOu
+ 
+signOut(false)
+ 
+onClick={hover} >
+ 
+<img src='./logo.png'
+ 
+/frontend simpiliffied '
+ 
+border: ;
+ 
+  height: 70px;
+ 
+App{
+    
+}
+ 
+ flex: content;
+ 
+  flex-direction: row;
+ 
+justify-content: center;
+ 
+lex-direction: column;
+ 
+0,
+ 
+ border-radius: 20px;
+ 
+center;
+ 
+position: fixed;
+ 
+flex-direction: column-reverse;
+ 
+display: contents;
+ 
+ display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: block;
+ 
+flex-direction: right;
+ 
+padding-left: 50%;
+ 
+display: flex;
+ 
+flex-direction: row;
+ 
+mar;
+ 
+display: flex;
+ 
+ height: 50px;
+ 
+flex-wrap: ;
+ 
+lex-direction: column;
+ 
+   height: 100%;
+ 
+lex: b;
+ 
+border-radius: 20;
+ 
+className=''
+ 
+/nav>
+ 
+aqua
+ 
+p
+ 
+color: black;
+    width: auto;
+ 
+.app{
+    
+    border-radius: 10px black ;
+}
+ 
+nav
+ 
+<nav>
+            <div class="nav__container">
+                <ul class="nav__links">
+                  <li class="nav__link"><a href="#">Home</a></li>
+                  <li class="nav__link"><a href="#">Contact</a></li>
+                  <li class="nav__link nav__link--primary"><a href="#">Books</a></li>
+                </ul>
+        </nav>
+ 
+img class="logo" src="./Library.svg" alt="">
+ 
+div className='Nav'>
+      
+
+    </div>
+ 
+<div>
+      
+    </div>
+ 
+  .then ((user) => {
+      console.log(user)
+    })
+    .catch ((error) => {
+      console.log(error);
+    })
+ 
+nWithEmailAndPassword
+ 
+, 'email@gmail.com', 'test123
+ 
+nsole.log('register');
+ 
+export const auth = getAuth();
+ 
+const firebaseConfig{
+...
+}
+ 
+etAuth,
+ 
+'./firebase/init';
+ 
+test
+ 
+oieughfiuehfe
+ 
+import logo from './logo.svg';
+ 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
